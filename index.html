@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Chip GIF</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .chip-container {
+            max-width: 600px;
+            max-height: 600px;
+            width: 90vw;
+            height: 90vw;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        
+        #chip-gif {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="chip-container">
+        <img src="chips-potato-chips.gif" 
+             alt="Potato Chips GIF"
+             id="chip-gif">
+    </div>
+</body>
+</html>
